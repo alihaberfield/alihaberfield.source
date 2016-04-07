@@ -1,0 +1,11 @@
+# Site settings
+title: Ali Haberfield Makes Web Things
+email: hello@alihaberfield.com
+description:  I'm a Stockholm-based web developer. I mainly build web-based services using Rails & front-end, but I also make a lot of other things using the best tools for the job.
+baseurl: ""
+url: "http://alihaberfield.com" # the base hostname & protocol for your site
+twitter_username: alihaberfield
+github_username: alihaberfield
+
+# Build settings
+markdown: kramdown
