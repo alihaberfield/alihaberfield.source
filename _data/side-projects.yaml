@@ -1,0 +1,16 @@
+- name: Creative Coding
+  url: http://www.openprocessing.org/user/51473
+  url_name: Processing.js
+  text: |
+    I like to explore the field of creative coding, using OpenFrameworks, Processing, d3, web video, web audio, and whatever is at hand when I'm inspired. 
+- name: Knitting
+  url: http://www.ravelry.com/people/alihaberfield
+  url_name: My projects on Ravelry
+  text: |
+    I spend a lot of time knitting sweaters & scarves, and thinking about the overlaps of pixels, stitches, patterns and algorithms. I love to meet other developers who are also crafters & makers.
+- name: Teaching
+  text: |
+    I enjoy teaching and mentoring, and would like to hear about opportunities to volunteer to teach Ruby, Rails & front-end, especially to groups that are marginalized in tech.
+- name: Community
+  text: |
+    I enjoy getting involved with tech events through groups like Berlin Geekettes, Stockholm Ruby, RailsGirls and more. 

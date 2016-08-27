@@ -1,0 +1,9 @@
+#Static content
+intro: |
+  I'm a Stockholm-based web developer, originally from Australia. 
+
+  I build web-based services using Rails & front-end, among other things. I've been working as a web developer since 2009. I like to connect with my tech community through meet-ups, Twitter & code mentoring.
+history: >
+  I started web programming as a highschool hobby in the 90's, when Geocities ruled the earth, tables held everything together and scrolling news tickers were a hot thing. Things have changed a little since then.
+currently: >
+  I'm currently developing applications for employee well-being and health economics for <a class="u--no-break" href="http://proactivehealth.se">Proactive Health</a>.
