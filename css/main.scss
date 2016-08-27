@@ -9,18 +9,19 @@
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  $base-font-size * 0.7;
+$highlight-font-size: $base-font-size * 1.1;
 $heading-font-size: $base-font-size * 2.2;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #ffffff;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
+$grey-color-light: lighten($grey-color, 5%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $blue-color: 		#1f8dd6;
@@ -30,6 +31,14 @@ $red-color:			#dd514c;
 $pink-color:		#F358A5;
 $orange-color:		#F37B1D;
 $yellow-color:		#FAD232;
+
+$rainbow-colors: ($blue-color, $pink-color, $red-color, $orange-color, $yellow-color);
+$all-colors: ($blue-color, $purple-color, $green-color, $red-color, $pink-color, $orange-color, $yellow-color, $blue-color);
+
+$transparent-color: rgba(255,0,0,0);
+
+$blog-color:        $purple-color;
+$tools-color:       $blue-color;
 
 // Width of the content area
 $content-width:    800px;
@@ -47,6 +56,11 @@ $on-hd:				1200px;
     }
 }
 
+@mixin media-query-min($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
 
 @mixin gradient-rainbow($color-0, $color-25, $color-50, $color-75, $color-100) {
     background: $color-0;
@@ -54,6 +68,37 @@ $on-hd:				1200px;
     background: -webkit-linear-gradient(left, $color-0 0%, $color-25 25%, $color-50 50%, $color-75 75%, $color-100 100%); 
     background: linear-gradient(to right, $color-0 0%, $color-25 25%, $color-50 50%, $color-75 75%, $color-100 100%); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-0', endColorstr='$color-100',GradientType=1 );
+}
+
+@mixin gradient-simple($color-1, $color-2) {
+    background: $color-1;
+    background: -webkit-linear-gradient(left, $color-1, $color-2);
+    background: -o-linear-gradient(right, $color-1, $color-2); 
+    background: -moz-linear-gradient(right, $color-1, $color-2); 
+    background: linear-gradient(to right, $color-1, $color-2); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-1', endColorstr='$color-2',GradientType=1 );
+}
+
+@mixin social-icon($color) {
+        path { fill: $color; }
+        &:hover path { fill: darken($color, 15%) }
+}
+
+@mixin page-section($background, $text) {
+    .container {
+        border-top: 1px solid $background;
+        .page-heading {
+            span {
+                color: $text;
+                background: $background;
+            }
+        }
+    }
+
+    a { 
+        color: $background; 
+        &:hover { color: darken($background, 15%) }
+    }
 }
 
 

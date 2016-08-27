@@ -4,17 +4,7 @@ email: hello@alihaberfield.com
 description: | 
   I'm a Stockholm-based web developer.   
 baseurl: ""
-url: "http://alihaberfield.com" # the base hostname & protocol for your site
-twitter_username: alihaberfield
-github_username: alihaberfield
+url: "http://alihaberfield.com"
 
 # Build settings
 markdown: kramdown
-
-#Static content
-intro: |
-  I'm a Stockholm-based web developer. 
-
-  I build web-based services using Rails & front-end, among other things. 
-  
-  I like to connect with my tech community through meet-ups, Twitter & mentoring.

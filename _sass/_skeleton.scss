@@ -53,7 +53,7 @@
     width: 80%; }
   .column,
   .columns {
-    margin-left: 4%; }
+    margin-right: 4%; }
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
@@ -368,6 +368,8 @@ form {
   float: right; }
 .u-pull-left {
   float: left; }
+
+.u-visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
 
 /* Misc

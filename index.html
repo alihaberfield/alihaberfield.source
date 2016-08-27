@@ -4,14 +4,20 @@ layout: index
 
 <div class="page-content intro">
   <div class="container">
-    <p>{{ site.intro | markdownify }}</p>
+
+
+    {{ site.data.intro.intro | markdownify }}
+    {{ site.data.intro.history | markdownify }}
+    {{ site.data.intro.currently | markdownify }}
+
+
   </div>
 </div>
 
 <div class="page-content posts">
   <div class="container">
   
-      <h1 class="page-heading">Posts</h1>
+      <h2 class="page-heading"><span>Blog</span></h2>
 
       <ul class="post-list">
         {% for post in site.posts limit:1 %}
@@ -25,7 +31,63 @@ layout: index
           </li>
         {% endfor %}
       </ul>
-  
+  </div>
+</div>
+
+<div class="page-content tools">
+  <div class="container row">
+      <h2 class="page-heading"><span>Tools</span></h1>
+      <section class="column one-half current">
+        <h3>My daily kit:</h3>
+        <ul>
+          <li>Ruby & RoR (test: rspec and Capybara)
+            <span class="experience short">2014- present</span>
+          </li>
+          <li>HTML/CSS/SCSS
+            <span class="experience long">1998/2001/2009 - present</span>
+          </li>
+          <li>Javascript (test: Jasmine)
+            <span class="experience med-long">2009- present</span>
+          </li>
+          <li>Cordova/PhoneGap
+            <span class="experience short">3 years, occasional</span>
+          </li>
+          <li>Cordova/PhoneGap
+            <span class="experience short">3 years, occasional</span>
+          </li>
+        </ul>
+        <p><a href="https://www.linkedin.com/in/ali-haberfield-4b705620">You'll find more of my CV on LinkedIn</a>.</p>
+      </section>
+      <section class="column one-half past">
+        <h3>Past tools:</h3>
+        <ul>
+          <li>WordPress, Typo3 & other PHP CMS
+            <span class="experience med-long">7 years, cumulative</span>
+          </li>
+          <li>Java & Tapestry framework
+            <span class="experience med">2 years</span>
+          </li>
+          <li>Python & Flask framework
+            <span class="experience med">2 years</span>
+          </li>
+          <li>AngularJS
+            <span class="experience short">1 year</span>
+          </li>
+        </ul>
+      </section>
+
+      
 
   </div>
 </div>
+
+
+<div class="page-content side-projects">
+  <div class="container">
+    <h2 class="page-heading"><span>Outside projects</span></h2>
+        {% for project in site.data.side-projects %}
+          {% include project.html project=project %}
+        {% endfor %}
+  </div>
+</div>
+
