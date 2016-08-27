@@ -1,0 +1,9 @@
+<li>
+	<a href="{{ include.url }}" title="{{ icon.title }}">
+	<span class="icon icon--{{ include.class }}">
+
+	{% include {{ icon.title | prepend: 'icon-' | append: '.svg' }} %}
+	</span>
+	<span class="social-icon--title u-visuallyhidden">{{ icon.title }}</span>
+	</a>
+</li>

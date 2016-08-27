@@ -1,0 +1,9 @@
+<section class="column one-half">
+	<h3>{{ project.name }}</h3>
+	{% if project.url %}
+	<p> <a href="{{ project.url }}">{{ project.url_name }}</a> </p>
+	{% endif %}
+	
+	{{ project.text | markdownify }}
+</section>
+
