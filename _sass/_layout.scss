@@ -70,11 +70,11 @@
             left: 0;
             height: 100%;
             width: 100%;
-            opacity: 0; 
+            opacity: 0.7; 
             transition: opacity 0.5s;
         }
         &:hover:after {
-            opacity: 0.5;
+            opacity: 0;
         } 
 
         @include media-query($on-palm) {
@@ -90,7 +90,7 @@
     @for $i from 1 through 8 {
         a:nth-child(#{$i}) {
             border: 1px solid lighten(nth($all-colors, $i), 5%);
-            &:hover:after {
+            &:after {
                 background: lighten(nth($all-colors, $i), 15%);
             }
         } 
