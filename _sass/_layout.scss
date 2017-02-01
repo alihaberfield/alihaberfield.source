@@ -194,8 +194,9 @@
 }
 
 .page-content.tools { @include page-section($tools-color, #FFF) }
-.page-content.posts { @include page-section($blog-color, #FFF) }
-.page-content.side-projects { @include page-section($pink-color, #FFF) }
+.page-content.posts { @include page-section($tech-color, #FFF) }
+.page-content.posts.blog { @include page-section($pink-color, #FFF) }
+.page-content.side-projects { @include page-section($red-color, #FFF) }
 
 .intro {
     padding-top: 60px;

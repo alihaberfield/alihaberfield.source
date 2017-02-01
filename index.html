@@ -13,26 +13,6 @@ layout: index
   </div>
 </div>
 
-<div class="page-content posts">
-  <div class="container">
-  
-      <h2 class="page-heading"><span>Blog</span></h2>
-
-      <ul class="post-list">
-        {% for post in site.posts limit:1 %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-            <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-            <p>{{ post.excerpt || markdownify }}</p>
-          </li>
-        {% endfor %}
-      </ul>
-  </div>
-</div>
-
 <div class="page-content tools">
   <div class="container row">
       <h2 class="page-heading"><span>Tools</span></h1>
@@ -80,12 +60,28 @@ layout: index
           </li>
         </ul>
       </section>
-
-      
-
   </div>
 </div>
 
+<div class="page-content posts">
+  <div class="container">
+  
+      <h2 class="page-heading"><span>Tech posts</span></h2>
+
+      <ul class="post-list">
+        {% for post in site.categories.tech limit:1 %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <p>{{ post.excerpt || markdownify }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+  </div>
+</div>
 
 <div class="page-content side-projects">
   <div class="container">
@@ -93,6 +89,26 @@ layout: index
         {% for project in site.data.side-projects %}
           {% include project.html project=project %}
         {% endfor %}
+  </div>
+</div>
+
+<div class="page-content posts blog">
+  <div class="container">
+  
+      <h2 class="page-heading"><span>Other thoughts</span></h2>
+
+      <ul class="post-list">
+        {% for post in site.categories.blog limit:1 %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <p>{{ post.excerpt || markdownify }}</p>
+          </li>
+        {% endfor %}
+      </ul>
   </div>
 </div>
 
