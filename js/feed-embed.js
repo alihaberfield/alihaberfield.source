@@ -6,9 +6,6 @@ var feed = new Instafeed({
   resolution: 'standard_resolution',
   template: '<a href="{{link}}" target="_blank" rel="noopener noreferrer" id="{{id}}"><img src="{{image}}" /></a>',
   sortBy: 'most-recent',
-  filter: function(image) {
-    return image.tags.indexOf('nature') >= 0;
-  },
   limit: 6,
   links: true
 });
