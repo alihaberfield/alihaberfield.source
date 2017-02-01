@@ -8,11 +8,13 @@ excerpt: |
   
 ---
 
+![Walking out to The Blade]({{ site.baseurl }}/assets/hike/blade.jpg)
+
 I’m sitting on a wooden bench on a verandah on what feels like the edge of the world. The jagged, towering coastline I’ll be walking tomorrow stretches off ahead of me. Behind me, the hut kitchen, and the sounds of handfuls of kids and their parents playing board games. The social side of the walk- being in a group of strangers at the huts at the start and end of each day- is a little tedious. I want to be in this wild and beautiful place with less company, and enjoy it quietly. 
 
 But out on the track I mostly am alone, and have a lot of time to look at things.
 
-Just before I sat down to start writing this we saw a pair of sea eagles, recognisable by their huge size and white bellies, come swooping up the side of the cliff we’re perched on, then dive again, off and out of sight. Among the rocks between the verandah and the cliff edge I can see a tiny, brilliantly blue fairy wren hopping about, as adorable and perfectly round as one of those little long-tailed tits. Every now and then it spots its reflection in the window and flutters angrily up to attack the glass.
+Just before I sat down to start writing this we saw a pair of sea eagles, recognisable by their huge size and white bellies, come swooping up the side of the cliff we’re perched on, then dive again, off and out of sight. Among the rocks between the verandah and the cliff edge I can see a tiny, brilliantly blue fairy wren hopping about, as adorable and perfectly round as one of the long-tailed tits we exclaim about in Sweden. Every now and then it spots its reflection in the window and flutters angrily up to attack the glass.
 
 We stopped for lunch today at a spot called Jurassic Crack. It was a ledge of rock overlooking a towering, sheer cliff face formed from these startlingly straight columns of a dark rock called Jurassic dolerite. It was pouring rain but we sat for a long time, admiring the view, eating tuna on damp crackers, trying to get photos that would do the whole towering drama of it some justice.
 
@@ -38,12 +40,13 @@ I felt like I took photos while I was up there- victory shots to try to capture 
 A little way down The Blade we came upon the first other hikers of the day, and gave them our wide-eyed and enthusiastic recommendation that they should try for a The Blade as long as the wind hadn’t picked up. Then we walked up and over the cape, back to the spectacular cliff top hut, and then with our full packs to a forest valley hut further along the trail.
 
 ---
-
-![Rainforest and tree ferns]({{ site.baseurl }}/assets/hike/ferns.JPG)
+![Boardwalk]({{ site.baseurl }}/assets/hike/wallaby.JPG)
 
 Setting off on the last walk of the track, a wallaby eating grass right by then boardwalk  spotted me and bounded off- further up the track, and resumed eating the grass. It looked outraged as I continued to walk up towards it, and bounded off again- about 20m up the track. We kept playing this game until the boardwalk gave way to gravel path, when it bounded off down some wallaby highway in the tall grass.
 
 Beside the track every day we spotted wombat poo, although no wombats. Wombat poo is easy to spot because it’s oddly cubed, and they leave it over and over again in the same spot, preferring rocks and ledges. It’s like a gallery of poo of different vintages.
+
+![Rainforest and tree ferns]({{ site.baseurl }}/assets/hike/ferns.JPG)
 
 The rainforest we climbed through to the modest peak of Mount Fortescue was some of the eeriest stuff i’ve ever seen. Small hikers among enormous tree-ferns, bright fungi, few birds, lots of leeches. Then over the mountain and back to the coastal scrub down towards Cape Huay. That was a long walk with a lot of stairs, and increasing numbers of unfamiliar faces- day hikers, coming in from our planned end point at Fortescue Bay. They smelled from meters away like perfume and soap.
 
