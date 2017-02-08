@@ -1,0 +1,10 @@
+# Site settings
+title: Ali Haberfield
+email: hello@alihaberfield.com
+description: | 
+  I'm a Stockholm-based web developer.   
+baseurl: ""
+url: "http://alihaberfield.com"
+
+# Build settings
+markdown: kramdown
